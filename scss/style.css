@@ -150,7 +150,7 @@ footer .footer-content {
   flex-wrap: wrap;
   padding-bottom: 92px;
   justify-content: center;
-  gap: 30px;
+  gap: 200px;
 }
 footer .footer-content .footer-left .p14 {
   color: var(--white, #fff);
