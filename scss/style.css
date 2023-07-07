@@ -146,11 +146,11 @@ footer {
 footer .footer-content {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-items: space-between;
   flex-wrap: wrap;
   padding-bottom: 92px;
   justify-content: center;
-  gap: 200px;
+  gap: 320px;
 }
 footer .footer-content .footer-left .p14 {
   color: var(--white, #fff);
