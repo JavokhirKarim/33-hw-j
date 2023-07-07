@@ -1,0 +1,64 @@
+@use "../base" as *;
+@use "../components" as *;
+
+.hero {
+  background-color: $color-first;
+  padding-top: 126px;
+  padding-bottom: 126px;
+  margin-top: 90px;
+  .hero-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    .hero-left {
+      .p1 {
+        color: #fff;
+
+        /* Heading 1 */
+        font-family: Poppins;
+        font-size: 54px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 74px;
+      }
+      .p2 {
+        color: #fff;
+
+        /* Body 2 */
+        font-family: Poppins;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 28px;
+        opacity: 0.699999988079071;
+        padding-top: 24px;
+      }
+
+      .hero-btns {
+        padding-top: 48px;
+        .btn2 {
+          @include defBtn;
+          background-color: #fcd980;
+          border: 0;
+          color: #1b1c2b;
+          font-family: Manrope;
+          font-size: 18px;
+          font-style: normal;
+          font-weight: 600;
+          line-height: 32px;
+        }
+        .btn3 {
+          @include defBtn;
+          background-color: transparent;
+          border: 0;
+          font-family: Manrope;
+          font-size: 18px;
+          font-style: normal;
+          font-weight: 600;
+          line-height: 32px;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,44 @@
+@use "../base";
+@use "../components";
+
+.projects-content {
+  padding-bottom: 128px;
+  padding-top: 128px;
+  .p3 {
+    color: var(--dark-blue, #282938);
+
+    /* Heading 2 */
+    font-family: Poppins;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 64px;
+  }
+  .cards {
+    display: flex;
+    flex-direction: row;
+    padding-top: 64px;
+    .left-card1 {
+      background: url(../image/Card.svg), 50% / cover no-repeat;
+      // height: 600px;
+      .p4 {
+        color: var(--white, #fff);
+        font-family: Poppins;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 36px;
+      }
+      .p5 {
+        color: var(--white, #fff);
+
+        /* Body 2 */
+        font-family: Poppins;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 28px;
+      }
+    }
+  }
+}

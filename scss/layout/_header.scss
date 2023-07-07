@@ -1,0 +1,48 @@
+@use "../base" as *;
+@use "../components" as *;
+
+header {
+  @include adaptiveTheme(#1c1e53, #bbbbcb);
+  height: 90px;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  z-index: 22;
+  box-shadow: 10px 20px 20px -15px #111e49;
+  .navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 17px;
+    .menu {
+      display: none;
+      background-color: transparent;
+      border: 0;
+    }
+    .menu-btn {
+      background-color: transparent;
+      border: 0;
+    }
+    .nav-links {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      gap: 40px;
+      .nav-link {
+        color: #bbbbcb;
+        font-family: Poppins;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 28px;
+      }
+      .btn1 {
+        @include defBtn;
+        background-color: transparent;
+        border: 2px solid rgba(244, 246, 252, 0.2);
+      }
+    }
+  }
+}
